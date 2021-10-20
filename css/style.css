@@ -131,6 +131,7 @@ main {
 .container {
     padding: 12em 19em;
     margin: 0 auto;
+    text-align: center;
 }
 
 .col-img {
@@ -147,15 +148,40 @@ img {
 }
 
 .col-h2 {
-    font-size: 4em;
-    margin-bottom: 0.5em;
+    font-size: 3em;
+    margin-bottom: 1em;
 }
 
 .col-p {
     font-size: 1.5em;
     line-height: 1.3em;
+    vertical-align: middle;
 }
 
 .grey {
     background-color: #f6f6f6;
+}
+
+.mrg {
+    margin: 0 7em;
+}
+
+.col-h3 {
+    font-size: 2em;
+}
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    display: inline-block;
+    line-height: 8em;
+}
+
+.fas.fa-long-arrow-alt-down {
+    margin-right: 0.5em;
+}
+
+#light {
+    background-color: rgb(142,161,225);
 }
