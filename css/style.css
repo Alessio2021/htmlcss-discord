@@ -191,6 +191,7 @@ img {
     margin: auto;
     padding:5em 0;
     color: white;
+    position: relative;
 }
 
 
@@ -259,5 +260,7 @@ h4{
 }
 
 .btn-footer{
- text-align: right;
+    position: absolute;
+    right: 0;
+    bottom: 8em;
 }
