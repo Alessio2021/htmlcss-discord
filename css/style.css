@@ -51,16 +51,16 @@ nav .float:nth-child(2) {
     vertical-align: middle;
 }
 
-.nav-menu {
+li {
     list-style-type: none;
 }
 
-.nav-menu li {
+.nav-menu li, .social li{
     display: inline-block;
     margin-right: 1em;
 }
 
-.navbar a {
+a {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -184,4 +184,57 @@ img {
 
 #light {
     background-color: rgb(142,161,225);
+}
+
+.footer {
+    width: 70%;
+    margin: auto;
+    padding:5em 0;
+    color: white;
+}
+
+.dark-bg {
+    background-color: rgb(35,39,42);
+}
+
+#footer-h2{
+    margin: 0 2em 1em 0;
+    color: rgb(142,161,225);
+    font-size: 3em;
+}
+
+#italia {
+    width: 15px;
+    height: 10px;
+}
+
+h4{
+    display: inline-block;
+    padding-bottom: 2em;
+}
+
+.col-social {
+    width: 40%;
+
+}
+.col-prodotto {
+    width: 15%;
+}
+.col-compagnia {
+    width: 15%;
+}
+.col-risorse {
+    width: 15%;
+}
+.col-norme {
+    width: 15%;
+}
+
+.intest {
+    color: rgb(142,161,225);
+    font-weight: bold;
+}
+
+.footer li{
+    line-height: 1.7em;
 }
