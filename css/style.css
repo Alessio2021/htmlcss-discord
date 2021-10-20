@@ -193,6 +193,7 @@ img {
     color: white;
 }
 
+
 .dark-bg {
     background-color: rgb(35,39,42);
 }
@@ -215,7 +216,7 @@ h4{
 
 .col-social {
     width: 40%;
-
+    
 }
 .col-prodotto {
     width: 15%;
@@ -233,8 +234,30 @@ h4{
 .intest {
     color: rgb(142,161,225);
     font-weight: bold;
+    padding-top: 1.5em;
 }
 
 .footer li{
     line-height: 1.7em;
+}
+
+.footer li:hover,
+.footer li:active,
+.footer li:focus {
+    color: white;
+    text-decoration: underline;
+}
+
+#hr {
+    border-bottom: 1px solid rgb(142,161,225);
+    padding-bottom: 4em;
+}
+
+#img {
+    width: 12em;
+    height: 8.5em;
+}
+
+.btn-footer{
+ text-align: right;
 }
