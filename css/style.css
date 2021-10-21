@@ -217,7 +217,6 @@ h4{
 
 .col-social {
     width: 40%;
-    
 }
 .col-prodotto {
     width: 15%;
@@ -235,7 +234,7 @@ h4{
 .intest {
     color: rgb(142,161,225);
     font-weight: bold;
-    padding-top: 1.5em;
+    padding-bottom: 1em;
 }
 
 .footer li{
